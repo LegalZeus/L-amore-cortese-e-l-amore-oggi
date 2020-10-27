@@ -60,3 +60,8 @@ video{
     text-align: center;
     
 }
+
+iframe {
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
