@@ -30,11 +30,11 @@ ul {
 }
   
 li {
-    float: inline-start;
+    display: inline;
 }
   
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -49,15 +49,14 @@ li a:hover {
 
 .par {
     font-size: x-large;
+    padding: 1em;
 }
 .par h2{
     text-align: center;
     margin-top: 0;
 }
 
-.par.p3 a{
-    
-}
+
 
 video{
     margin-left: 50vw;
@@ -76,9 +75,6 @@ iframe {
 }
 
 @media only screen and (max-width: 620px){
-    * {
-        resize: none;
-    }
     li {
         float:none;
     }
