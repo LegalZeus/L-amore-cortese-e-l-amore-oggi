@@ -7,11 +7,14 @@ body{
 
     font-family: 'Advent Pro', sans-serif;
     background-color: #004d4d;
-    font-size: 120%;
+    /*font-size: 120%;*/
 }
 
 .title {
     text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 300%;
 }
 
 ul {
@@ -36,6 +39,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
+    font-size: 120%;
 }
   
 li a:hover {
@@ -48,6 +53,10 @@ li a:hover {
 .par h2{
     text-align: center;
     margin-top: 0;
+}
+
+.par.p3 a{
+    
 }
 
 video{
@@ -64,4 +73,22 @@ video{
 iframe {
     margin-left: 50vw;
     transform: translate(-50%);
+}
+
+@media only screen and (max-width: 620px){
+    li {
+        float:none;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    p{
+        font-size: x-large;
+    }
+
+    .title {
+        font-size: 200%;
+    }
 }
