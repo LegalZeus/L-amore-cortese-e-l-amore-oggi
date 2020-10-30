@@ -78,6 +78,18 @@ iframe {
     list-style-type: none;
 }
 
+footer{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
 @media only screen and (max-width: 870px){
     .navbar li {
         float:none;
@@ -99,4 +111,10 @@ iframe {
     .autori li{
         text-align: left;
     }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
 }
